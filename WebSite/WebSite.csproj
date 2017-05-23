@@ -74,7 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
+    <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\login\login.component.html" />
     <Content Include="src\app\register\register.component.html" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
@@ -87,6 +89,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\login\login.component.ts" />
     <TypeScriptCompile Include="src\app\register\register.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>

@@ -1,0 +1,16 @@
+﻿a {
+  font: 20px italic;
+  text-decoration: none;
+  color: white;
+}
+a.active {
+  font: bold 20px italic;
+}
+md-toolbar {
+  position: fixed;
+  background-color: black;
+}
+router-outlet {
+  display: block;
+  height: 64px;
+}

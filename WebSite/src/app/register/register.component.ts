@@ -5,4 +5,4 @@
   selector: 'register',
   templateUrl: 'register.component.html',
 })
-export class RegisterComponent  { name = 'Angular'; }
+export class RegisterComponent  { }
